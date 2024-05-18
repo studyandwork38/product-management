@@ -21,10 +21,11 @@ namespace Products_Management.BL
             param[1].Value = PWD;
 
             DAL.open();
-            DataTable dt=new DataTable();
+            DataTable Dt=new DataTable();
 
-            dt = DAL.SelectData("SP_LOGIN",param);
-            return dt;
+            Dt = DAL.SelectData("SP_LOGIN",param);
+            DAL.close();
+            return Dt;
         }
     }
 }

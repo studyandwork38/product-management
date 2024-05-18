@@ -4,5 +4,8 @@
     <Compile Update="PL\FRM_LOGIN.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PL\FRM_MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

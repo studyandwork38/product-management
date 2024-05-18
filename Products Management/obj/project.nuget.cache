@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kHYFGpvl/VlT9vBiZhEsZ0reurx5xMRUMFKLUx7bUGm0/FXsCtQI0c5z4wRXyspqucrmXiOYyHmzHC9vnKHaMg==",
+  "dgSpecHash": "WK88SEn3JtivOjQEw1agTF5nZj/0D4y50gPS5py4jFPS923bqQ8XjBRcow+RSpspASGuGjWdkG+SklSRUg1HcA==",
   "success": true,
-  "projectFilePath": "D:\\Aziz\\Products Management\\Products Management\\Products Management.csproj",
+  "projectFilePath": "D:\\Aziz\\product-management\\Products Management\\Products Management.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User21\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\User21\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -22,3 +22,29 @@ D:\Aziz\Products Management\Products Management\obj\Debug\net8.0-windows\refint\
 D:\Aziz\Products Management\Products Management\obj\Debug\net8.0-windows\Products Management.pdb
 D:\Aziz\Products Management\Products Management\obj\Debug\net8.0-windows\Products Management.genruntimeconfig.cache
 D:\Aziz\Products Management\Products Management\obj\Debug\net8.0-windows\ref\Products Management.dll
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\Products Management.exe
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\Products Management.deps.json
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\Products Management.runtimeconfig.json
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\Products Management.dll
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\Products Management.pdb
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Aziz\product-management\Products Management\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.csproj.AssemblyReference.cache
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products_Management.PL.FRM_LOGIN.resources
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products_Management.PL.FRM_MAIN.resources
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.csproj.GenerateResource.cache
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.AssemblyInfoInputs.cache
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.AssemblyInfo.cs
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.csproj.CoreCompileInputs.cache
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.sourcelink.json
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products.293B5E51.Up2Date
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.dll
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\refint\Products Management.dll
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.pdb
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products Management.genruntimeconfig.cache
+D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\ref\Products Management.dll

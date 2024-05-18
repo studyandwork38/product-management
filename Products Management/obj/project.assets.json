@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aziz\\Products Management\\Products Management\\Products Management.csproj",
+      "projectUniqueName": "D:\\Aziz\\product-management\\Products Management\\Products Management.csproj",
       "projectName": "Products Management",
-      "projectPath": "D:\\Aziz\\Products Management\\Products Management\\Products Management.csproj",
+      "projectPath": "D:\\Aziz\\product-management\\Products Management\\Products Management.csproj",
       "packagesPath": "C:\\Users\\User21\\.nuget\\packages\\",
-      "outputPath": "D:\\Aziz\\Products Management\\Products Management\\obj\\",
+      "outputPath": "D:\\Aziz\\product-management\\Products Management\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User21\\AppData\\Roaming\\NuGet\\NuGet.Config",
