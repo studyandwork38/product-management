@@ -14,7 +14,7 @@ namespace Products_Management.DAL
         
         public DataAccessLayer()
         {
-            sqlconnection = new SqlConnection(@"Server=.\SQLEXPRESS ; Database=Product_DB ; Integrated Security=true");
+            sqlconnection = new SqlConnection(@"Server=.\SQLEXPRESS ; Database=Poduct_Managment ; Integrated Security=true");
 
         }
 
@@ -43,19 +43,34 @@ namespace Products_Management.DAL
             SqlCommand sqlcmd=new SqlCommand();
             sqlcmd.CommandType = CommandType.StoredProcedure;
             sqlcmd.CommandText = stored_Procedure;
+            sqlcmd.Connection = sqlconnection;  
             if(param != null )
             {
-                foreach( SqlParameter p in param )
-                {
-                    sqlcmd.Parameters.Add( p );
-                }
+                sqlcmd.Parameters.AddRange(param);
             }
             SqlDataAdapter da = new SqlDataAdapter(sqlcmd);
 
             DataTable dt= new DataTable();
-            dt.Fill(da);
+            da.Fill(dt);
             return dt;
 
+        }
+
+        //method to update,insert and delete data from database
+
+        public void ExcuteCommand(string stored_Procedure, SqlParameter[] param)
+        {
+            SqlCommand sqlcmd= new SqlCommand();
+            sqlcmd.CommandType= CommandType.StoredProcedure;
+            sqlcmd.CommandText = stored_Procedure;
+            sqlcmd.Connection = sqlconnection;
+
+
+            if (param != null )
+            {
+                sqlcmd.Parameters.AddRange(param);
+            }
+            sqlcmd.ExecuteNonQuery();
         }
     }
 }
