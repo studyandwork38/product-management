@@ -36,7 +36,7 @@ namespace Products_Management.PL
                 FRM_MAIN.getMainForm.انشاءنسخهاحتياطيةToolStripMenuItem.Enabled = true;
                 FRM_MAIN.getMainForm.استعادةنسخهمحفوظةToolStripMenuItem.Enabled = true;
                 this.Close();
-                
+
             }
             else
             {
@@ -45,6 +45,11 @@ namespace Products_Management.PL
         }
 
         private void txtID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FRM_LOGIN_Load(object sender, EventArgs e)
         {
 
         }

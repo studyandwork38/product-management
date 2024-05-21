@@ -15,7 +15,7 @@ namespace Products_Management.PL
     {
 
         private static FRM_MAIN frm;
-        
+
         static void frm_FormClosed(object sender, FormClosedEventArgs e)
         {
             frm = null;
@@ -24,20 +24,20 @@ namespace Products_Management.PL
         public static FRM_MAIN getMainForm
         {
             get
-                {
+            {
                 if (frm == null)
                 {
-                    frm=new FRM_MAIN();
+                    frm = new FRM_MAIN();
                     frm.FormClosed += new FormClosedEventHandler(frm_FormClosed);
 
-                }   
-                return frm; 
+                }
+                return frm;
             }
 
         }
         public FRM_MAIN()
         {
-            
+
             InitializeComponent();
             if (frm == null) frm = this;
             this.المنجاتToolStripMenuItem.Enabled = false;
@@ -60,7 +60,13 @@ namespace Products_Management.PL
 
         private void تسجيلالدخولToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FRM_LOGIN frm=new FRM_LOGIN();
+            FRM_LOGIN frm = new FRM_LOGIN();
+            frm.ShowDialog();
+        }
+
+        private void اضافةمنتججديدToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRM_ADD_PRODUCT frm= new FRM_ADD_PRODUCT();
             frm.ShowDialog();
         }
     }

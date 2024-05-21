@@ -14,7 +14,7 @@ namespace Products_Management.DAL
         
         public DataAccessLayer()
         {
-            sqlconnection = new SqlConnection(@"Server=.\SQLEXPRESS ; Database=Product_DB ; Integrated Security=true");
+            sqlconnection = new SqlConnection(@"Server=.\SQLEXPRESS ; Database=Poduct_Managment ; Integrated Security=true");
 
         }
 

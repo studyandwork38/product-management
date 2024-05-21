@@ -106,6 +106,7 @@
             RightToLeft = RightToLeft.Yes;
             RightToLeftLayout = true;
             Text = "نافذة الدخول:";
+            Load += FRM_LOGIN_Load;
             ResumeLayout(false);
             PerformLayout();
         }

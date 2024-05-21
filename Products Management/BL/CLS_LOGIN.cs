@@ -20,7 +20,7 @@ namespace Products_Management.BL
             param[1] = new SqlParameter("@PWD",SqlDbType.VarChar);
             param[1].Value = PWD;
 
-            DAL.open();
+          
             DataTable Dt=new DataTable();
 
             Dt = DAL.SelectData("SP_LOGIN",param);

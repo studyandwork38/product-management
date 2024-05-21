@@ -105,6 +105,7 @@
             اضافةمنتججديدToolStripMenuItem.Name = "اضافةمنتججديدToolStripMenuItem";
             اضافةمنتججديدToolStripMenuItem.Size = new Size(180, 22);
             اضافةمنتججديدToolStripMenuItem.Text = "اضافة منتج جديد";
+            اضافةمنتججديدToolStripMenuItem.Click += اضافةمنتججديدToolStripMenuItem_Click;
             // 
             // ادراةالمنتجاتToolStripMenuItem
             // 
@@ -139,30 +140,30 @@
             // اضافةعميلجديدToolStripMenuItem
             // 
             اضافةعميلجديدToolStripMenuItem.Name = "اضافةعميلجديدToolStripMenuItem";
-            اضافةعميلجديدToolStripMenuItem.Size = new Size(180, 22);
+            اضافةعميلجديدToolStripMenuItem.Size = new Size(159, 22);
             اضافةعميلجديدToolStripMenuItem.Text = "اضافة عميل جديد";
             // 
             // ادارةالعملاءToolStripMenuItem
             // 
             ادارةالعملاءToolStripMenuItem.Name = "ادارةالعملاءToolStripMenuItem";
-            ادارةالعملاءToolStripMenuItem.Size = new Size(180, 22);
+            ادارةالعملاءToolStripMenuItem.Size = new Size(159, 22);
             ادارةالعملاءToolStripMenuItem.Text = "ادارة العملاء";
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(177, 6);
+            toolStripSeparator2.Size = new Size(156, 6);
             // 
             // اضافةبيعجديدToolStripMenuItem
             // 
             اضافةبيعجديدToolStripMenuItem.Name = "اضافةبيعجديدToolStripMenuItem";
-            اضافةبيعجديدToolStripMenuItem.Size = new Size(180, 22);
+            اضافةبيعجديدToolStripMenuItem.Size = new Size(159, 22);
             اضافةبيعجديدToolStripMenuItem.Text = "اضافة بيع جديد";
             // 
             // ادارةالمبيعاتToolStripMenuItem
             // 
             ادارةالمبيعاتToolStripMenuItem.Name = "ادارةالمبيعاتToolStripMenuItem";
-            ادارةالمبيعاتToolStripMenuItem.Size = new Size(180, 22);
+            ادارةالمبيعاتToolStripMenuItem.Size = new Size(159, 22);
             ادارةالمبيعاتToolStripMenuItem.Text = "ادارة المبيعات";
             // 
             // المستخدمونToolStripMenuItem

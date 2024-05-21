@@ -470,24 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abdel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User21\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.Net\\Projects\\product-management\\Products Management\\Products Management.csproj",
+      "projectUniqueName": "D:\\Aziz\\product-management\\Products Management\\Products Management.csproj",
       "projectName": "Products Management",
-      "projectPath": "E:\\.Net\\Projects\\product-management\\Products Management\\Products Management.csproj",
-      "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
-      "outputPath": "E:\\.Net\\Projects\\product-management\\Products Management\\obj\\",
+      "projectPath": "D:\\Aziz\\product-management\\Products Management\\Products Management.csproj",
+      "packagesPath": "C:\\Users\\User21\\.nuget\\packages\\",
+      "outputPath": "D:\\Aziz\\product-management\\Products Management\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\User21\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -495,7 +490,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
