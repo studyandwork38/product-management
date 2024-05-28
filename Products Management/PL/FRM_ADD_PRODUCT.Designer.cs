@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            comboBox1 = new ComboBox();
-            textBox1 = new TextBox();
+            cmbCategories = new ComboBox();
+            txtRef = new TextBox();
             label2 = new Label();
             label3 = new Label();
-            textBox2 = new TextBox();
+            txtDes = new TextBox();
             label4 = new Label();
-            textBox3 = new TextBox();
+            txtQte = new TextBox();
             label5 = new Label();
-            textBox4 = new TextBox();
+            txtPrice = new TextBox();
             label6 = new Label();
             label7 = new Label();
-            pictureBox1 = new PictureBox();
+            pbox = new PictureBox();
             button1 = new Button();
             btnCancel = new Button();
-            btnLogin = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            btnOk = new Button();
+            ((System.ComponentModel.ISupportInitialize)pbox).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -56,20 +56,22 @@
             label1.TabIndex = 0;
             label1.Text = "تصنيف المنتج:";
             // 
-            // comboBox1
+            // cmbCategories
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(118, 42);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(233, 23);
-            comboBox1.TabIndex = 1;
+            cmbCategories.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbCategories.FormattingEnabled = true;
+            cmbCategories.Location = new Point(118, 42);
+            cmbCategories.Name = "cmbCategories";
+            cmbCategories.Size = new Size(233, 23);
+            cmbCategories.TabIndex = 1;
+            cmbCategories.SelectedIndexChanged += cmbCategories_SelectedIndexChanged;
             // 
-            // textBox1
+            // txtRef
             // 
-            textBox1.Location = new Point(118, 92);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(233, 23);
-            textBox1.TabIndex = 2;
+            txtRef.Location = new Point(118, 92);
+            txtRef.Name = "txtRef";
+            txtRef.Size = new Size(233, 23);
+            txtRef.TabIndex = 2;
             // 
             // label2
             // 
@@ -89,15 +91,15 @@
             label3.TabIndex = 5;
             label3.Text = "وصف المنتج:";
             // 
-            // textBox2
+            // txtDes
             // 
-            textBox2.Location = new Point(118, 143);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.ScrollBars = ScrollBars.Vertical;
-            textBox2.Size = new Size(233, 79);
-            textBox2.TabIndex = 4;
-            textBox2.Text = "ر";
+            txtDes.Location = new Point(118, 143);
+            txtDes.Multiline = true;
+            txtDes.Name = "txtDes";
+            txtDes.ScrollBars = ScrollBars.Vertical;
+            txtDes.Size = new Size(233, 79);
+            txtDes.TabIndex = 4;
+            txtDes.Text = "ر";
             // 
             // label4
             // 
@@ -108,12 +110,12 @@
             label4.TabIndex = 7;
             label4.Text = "الكمية المخزنة:";
             // 
-            // textBox3
+            // txtQte
             // 
-            textBox3.Location = new Point(118, 254);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(233, 23);
-            textBox3.TabIndex = 6;
+            txtQte.Location = new Point(118, 254);
+            txtQte.Name = "txtQte";
+            txtQte.Size = new Size(233, 23);
+            txtQte.TabIndex = 6;
             // 
             // label5
             // 
@@ -124,12 +126,12 @@
             label5.TabIndex = 9;
             label5.Text = "ثمن المنتج:";
             // 
-            // textBox4
+            // txtPrice
             // 
-            textBox4.Location = new Point(118, 304);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(233, 23);
-            textBox4.TabIndex = 8;
+            txtPrice.Location = new Point(118, 304);
+            txtPrice.Name = "txtPrice";
+            txtPrice.Size = new Size(233, 23);
+            txtPrice.TabIndex = 8;
             // 
             // label6
             // 
@@ -149,15 +151,15 @@
             label7.TabIndex = 11;
             label7.Text = "صورة المنتج:";
             // 
-            // pictureBox1
+            // pbox
             // 
-            pictureBox1.Location = new Point(118, 356);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(233, 99);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 12;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            pbox.Location = new Point(118, 356);
+            pbox.Name = "pbox";
+            pbox.Size = new Size(233, 99);
+            pbox.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbox.TabIndex = 12;
+            pbox.TabStop = false;
+            pbox.Click += pictureBox1_Click;
             // 
             // button1
             // 
@@ -178,44 +180,46 @@
             btnCancel.Text = "الغاء";
             btnCancel.UseVisualStyleBackColor = true;
             // 
-            // btnLogin
+            // btnOk
             // 
-            btnLogin.Location = new Point(347, 527);
-            btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(75, 23);
-            btnLogin.TabIndex = 14;
-            btnLogin.Text = "حفظ";
-            btnLogin.UseVisualStyleBackColor = true;
+            btnOk.Location = new Point(347, 527);
+            btnOk.Name = "btnOk";
+            btnOk.Size = new Size(75, 23);
+            btnOk.TabIndex = 14;
+            btnOk.Text = "حفظ";
+            btnOk.UseVisualStyleBackColor = true;
+            btnOk.Click += btnOk_Click;
             // 
             // FRM_ADD_PRODUCT
             // 
+            AccessibleName = "";
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(434, 584);
             Controls.Add(btnCancel);
-            Controls.Add(btnLogin);
+            Controls.Add(btnOk);
             Controls.Add(button1);
-            Controls.Add(pictureBox1);
+            Controls.Add(pbox);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
-            Controls.Add(textBox4);
+            Controls.Add(txtPrice);
             Controls.Add(label4);
-            Controls.Add(textBox3);
+            Controls.Add(txtQte);
             Controls.Add(label3);
-            Controls.Add(textBox2);
+            Controls.Add(txtDes);
             Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(comboBox1);
+            Controls.Add(txtRef);
+            Controls.Add(cmbCategories);
             Controls.Add(label1);
             MaximizeBox = false;
             Name = "FRM_ADD_PRODUCT";
             RightToLeft = RightToLeft.Yes;
             RightToLeftLayout = true;
             StartPosition = FormStartPosition.CenterScreen;
-            Text = " ";
+            Text = " اضافة منتج جديد:";
             Load += FRM_ADD_PRODUCT_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -223,20 +227,20 @@
         #endregion
 
         private Label label1;
-        private ComboBox comboBox1;
-        private TextBox textBox1;
+        private ComboBox cmbCategories;
+        private TextBox txtRef;
         private Label label2;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox txtDes;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox txtQte;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox txtPrice;
         private Label label6;
         private Label label7;
-        private PictureBox pictureBox1;
+        private PictureBox pbox;
         private Button button1;
         private Button btnCancel;
-        private Button btnLogin;
+        private Button btnOk;
     }
 }
