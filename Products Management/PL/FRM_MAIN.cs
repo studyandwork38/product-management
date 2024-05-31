@@ -66,7 +66,13 @@ namespace Products_Management.PL
 
         private void اضافةمنتججديدToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FRM_ADD_PRODUCT frm= new FRM_ADD_PRODUCT();
+            FRM_ADD_PRODUCT frm = new FRM_ADD_PRODUCT();
+            frm.ShowDialog();
+        }
+
+        private void ادراةالمنتجاتToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRM_PRODUCTS frm = new FRM_PRODUCTS();
             frm.ShowDialog();
         }
     }

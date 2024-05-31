@@ -112,6 +112,7 @@
             ادراةالمنتجاتToolStripMenuItem.Name = "ادراةالمنتجاتToolStripMenuItem";
             ادراةالمنتجاتToolStripMenuItem.Size = new Size(180, 22);
             ادراةالمنتجاتToolStripMenuItem.Text = "ادراة المنتجات";
+            ادراةالمنتجاتToolStripMenuItem.Click += ادراةالمنتجاتToolStripMenuItem_Click;
             // 
             // toolStripSeparator1
             // 

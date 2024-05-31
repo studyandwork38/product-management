@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_ADD_PRODUCT));
             label1 = new Label();
             cmbCategories = new ComboBox();
             txtRef = new TextBox();
@@ -71,7 +72,8 @@
             txtRef.Location = new Point(118, 92);
             txtRef.Name = "txtRef";
             txtRef.Size = new Size(233, 23);
-            txtRef.TabIndex = 2;
+            txtRef.TabIndex = 0;
+            txtRef.Validated += txtRef_Validated;
             // 
             // label2
             // 
@@ -98,7 +100,7 @@
             txtDes.Name = "txtDes";
             txtDes.ScrollBars = ScrollBars.Vertical;
             txtDes.Size = new Size(233, 79);
-            txtDes.TabIndex = 4;
+            txtDes.TabIndex = 1;
             txtDes.Text = "ر";
             // 
             // label4
@@ -115,7 +117,7 @@
             txtQte.Location = new Point(118, 254);
             txtQte.Name = "txtQte";
             txtQte.Size = new Size(233, 23);
-            txtQte.TabIndex = 6;
+            txtQte.TabIndex = 2;
             // 
             // label5
             // 
@@ -131,7 +133,7 @@
             txtPrice.Location = new Point(118, 304);
             txtPrice.Name = "txtPrice";
             txtPrice.Size = new Size(233, 23);
-            txtPrice.TabIndex = 8;
+            txtPrice.TabIndex = 3;
             // 
             // label6
             // 
@@ -153,6 +155,7 @@
             // 
             // pbox
             // 
+            pbox.Image = (Image)resources.GetObject("pbox.Image");
             pbox.Location = new Point(118, 356);
             pbox.Name = "pbox";
             pbox.Size = new Size(233, 99);
@@ -166,7 +169,7 @@
             button1.Location = new Point(118, 471);
             button1.Name = "button1";
             button1.Size = new Size(233, 23);
-            button1.TabIndex = 13;
+            button1.TabIndex = 4;
             button1.Text = "تحميل صورة";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -179,6 +182,7 @@
             btnCancel.TabIndex = 15;
             btnCancel.Text = "الغاء";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // btnOk
             // 

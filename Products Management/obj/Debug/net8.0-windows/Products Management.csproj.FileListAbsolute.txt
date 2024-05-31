@@ -76,3 +76,5 @@ E:\.Net\Projects\product-management\Products Management\obj\Debug\net8.0-windows
 E:\.Net\Projects\product-management\Products Management\obj\Debug\net8.0-windows\ref\Products Management.dll
 D:\Aziz\product-management\Products Management\obj\Debug\net8.0-windows\Products_Management.PL.FRM_ADD_PRODUCT.resources
 E:\.Net\Projects\product-management\Products Management\obj\Debug\net8.0-windows\Products_Management.PL.FRM_ADD_PRODUCT.resources
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net8.0-windows\Products_Management.Properties.Resources.resources
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net8.0-windows\Products_Management.PL.FRM_PRODUCTS.resources

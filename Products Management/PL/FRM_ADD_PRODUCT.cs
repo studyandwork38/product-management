@@ -53,10 +53,28 @@ namespace Products_Management.PL
         {
             MemoryStream ms = new MemoryStream();
             pbox.Image.Save(ms, pbox.Image.RawFormat);
-            byte[] byteImage=ms.ToArray();
+            byte[] byteImage = ms.ToArray();
 
-            prd.ADD_PRODUCT(Convert.ToInt32(cmbCategories.SelectedValue),txtRef.Text,txtDes.Text,Convert.ToInt32(txtQte.Text),txtPrice.Text,byteImage);
-            MessageBox.Show("تم الاضافة بنجاح","عملية الاضافة",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            prd.ADD_PRODUCT(Convert.ToInt32(cmbCategories.SelectedValue), txtRef.Text, txtDes.Text, Convert.ToInt32(txtQte.Text), txtPrice.Text, byteImage);
+            MessageBox.Show("تم الاضافة بنجاح", "عملية الاضافة", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void txtRef_Validated(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt = prd.VerifyProductID(txtRef.Text);
+            if (dt.Rows.Count > 0)
+            {
+                MessageBox.Show("هذا المعرف موجود مسبقا", "تنبيه", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtRef.Focus();
+                txtRef.SelectionStart = 0;
+                txtRef.SelectionLength = txtRef.TextLength;
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

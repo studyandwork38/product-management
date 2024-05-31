@@ -70,6 +70,7 @@ namespace Products_Management.DAL
             {
                 sqlcmd.Parameters.AddRange(param);
             }
+
             sqlcmd.ExecuteNonQuery();
         }
     }

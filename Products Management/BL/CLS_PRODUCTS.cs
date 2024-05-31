@@ -44,5 +44,43 @@ namespace Products_Management.BL
             DAL.ExcuteCommand("ADD_PRODUCT", param);
             DAL.close();
         }
+        public DataTable VerifyProductID(string ID_PRODUCT)
+        {
+            DAL.DataAccessLayer DAL = new DAL.DataAccessLayer();
+            SqlParameter[] param = new SqlParameter[1];
+            param[0] = new SqlParameter("@ID", SqlDbType.VarChar, 30);
+            param[0].Value = ID_PRODUCT;
+
+            DataTable Dt = new DataTable();
+
+            Dt = DAL.SelectData("VerifyProductID", param);
+            DAL.close();
+            return Dt;
+        }
+
+        public DataTable GET_ALL_PRODUCTS()
+        {
+            DAL.DataAccessLayer DAL = new DAL.DataAccessLayer();
+
+            DataTable Dt = new DataTable();
+
+            Dt = DAL.SelectData("GET_ALL_PRODUCTS", null);
+            DAL.close();
+            return Dt;
+        }
+
+        public DataTable SearchProduct(string ID_PRODUCT)
+        {
+            DAL.DataAccessLayer DAL = new DAL.DataAccessLayer();
+            SqlParameter[] param = new SqlParameter[1];
+            param[0] = new SqlParameter("@ID_PRODUCT", SqlDbType.VarChar, 30);
+            param[0].Value = ID_PRODUCT;
+
+            DataTable Dt = new DataTable();
+
+            Dt = DAL.SelectData("SearchProduct", param);
+            DAL.close();
+            return Dt;
+        }
     }
 }
