@@ -73,6 +73,7 @@
             txtRef.Name = "txtRef";
             txtRef.Size = new Size(233, 23);
             txtRef.TabIndex = 0;
+            txtRef.TextChanged += txtRef_TextChanged;
             txtRef.Validated += txtRef_Validated;
             // 
             // label2
@@ -229,22 +230,21 @@
         }
 
         #endregion
-
-        private Label label1;
-        private ComboBox cmbCategories;
-        private TextBox txtRef;
-        private Label label2;
-        private Label label3;
-        private TextBox txtDes;
-        private Label label4;
-        private TextBox txtQte;
-        private Label label5;
-        private TextBox txtPrice;
-        private Label label6;
-        private Label label7;
-        private PictureBox pbox;
-        private Button button1;
         private Button btnCancel;
-        private Button btnOk;
+        public Label label1;
+        public ComboBox cmbCategories;
+        public TextBox txtRef;
+        public Label label2;
+        public Label label3;
+        public TextBox txtDes;
+        public Label label4;
+        public TextBox txtQte;
+        public Label label5;
+        public TextBox txtPrice;
+        public Label label6;
+        public Label label7;
+        public PictureBox pbox;
+        public Button button1;
+        public Button btnOk;
     }
 }

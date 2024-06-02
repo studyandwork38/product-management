@@ -145,6 +145,7 @@
             button6.TabIndex = 3;
             button6.Text = "صورة المنتج";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button3
             // 
@@ -154,6 +155,7 @@
             button3.TabIndex = 2;
             button3.Text = "تعديل بيانات المنتج";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -183,9 +185,11 @@
             Controls.Add(groupBox1);
             Controls.Add(txtSearch);
             Controls.Add(label1);
+            MinimizeBox = false;
             Name = "FRM_PRODUCTS";
             RightToLeft = RightToLeft.Yes;
             RightToLeftLayout = true;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "نافذة ادارة المنتجات";
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -199,7 +203,6 @@
         private Label label1;
         private TextBox txtSearch;
         private GroupBox groupBox1;
-        private DataGridView dataGridView1;
         private GroupBox groupBox2;
         private Button button1;
         private Button button3;
@@ -209,5 +212,6 @@
         private Button button4;
         private Button button5;
         private Button button6;
+        public DataGridView dataGridView1;
     }
 }

@@ -4,6 +4,9 @@
     <Compile Update="PL\FRM_ADD_PRODUCT.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PL\FRM_IMAGE_PREVIEW.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PL\FRM_LOGIN.cs">
       <SubType>Form</SubType>
     </Compile>
