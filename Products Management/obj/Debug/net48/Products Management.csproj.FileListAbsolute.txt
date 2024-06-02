@@ -1,0 +1,20 @@
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products Management.csproj.AssemblyReference.cache
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products_Management.PL.FRM_ADD_PRODUCT.resources
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products_Management.PL.FRM_IMAGE_PREVIEW.resources
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products_Management.PL.FRM_LOGIN.resources
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products_Management.PL.FRM_MAIN.resources
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products_Management.PL.FRM_PRODUCTS.resources
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products_Management.Properties.Resources.resources
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products Management.csproj.GenerateResource.cache
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products Management.GeneratedMSBuildEditorConfig.editorconfig
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products Management.AssemblyInfoInputs.cache
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products Management.AssemblyInfo.cs
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products Management.csproj.CoreCompileInputs.cache
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products Management.sourcelink.json
+E:\.Net\Projects\product-management\Products Management\bin\Debug\net48\Products Management.exe.config
+E:\.Net\Projects\product-management\Products Management\bin\Debug\net48\Products Management.exe
+E:\.Net\Projects\product-management\Products Management\bin\Debug\net48\Products Management.pdb
+E:\.Net\Projects\product-management\Products Management\bin\Debug\net48\System.Data.SqlClient.dll
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products.293B5E51.Up2Date
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products Management.exe
+E:\.Net\Projects\product-management\Products Management\obj\Debug\net48\Products Management.pdb

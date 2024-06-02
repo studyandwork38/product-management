@@ -1,4 +1,6 @@
-﻿namespace Products_Management.PL
+﻿using System.Windows.Forms;
+using System.Drawing;
+namespace Products_Management.PL
 {
     partial class FRM_PRODUCTS
     {
@@ -28,174 +30,170 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            txtSearch = new TextBox();
-            groupBox1 = new GroupBox();
-            dataGridView1 = new DataGridView();
-            groupBox2 = new GroupBox();
-            button8 = new Button();
-            button7 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            groupBox2.SuspendLayout();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(160, 42);
-            label1.Name = "label1";
-            label1.Size = new Size(178, 15);
-            label1.TabIndex = 0;
-            label1.Text = "قم بادخال الكلمة المراد البحث عنها :";
-            label1.Click += label1_Click;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(137, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(166, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "قم بادخال الكلمة المراد البحث عنها :";
             // 
             // txtSearch
             // 
-            txtSearch.Location = new Point(344, 39);
-            txtSearch.Name = "txtSearch";
-            txtSearch.Size = new Size(435, 23);
-            txtSearch.TabIndex = 1;
-            txtSearch.TextChanged += textBox1_TextChanged;
+            this.txtSearch.Location = new System.Drawing.Point(295, 34);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(373, 20);
+            this.txtSearch.TabIndex = 1;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(dataGridView1);
-            groupBox1.Location = new Point(12, 88);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1110, 431);
-            groupBox1.TabIndex = 2;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "لائحة المنتجات";
+            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Location = new System.Drawing.Point(10, 76);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(951, 374);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "لائحة المنتجات";
             // 
             // dataGridView1
             // 
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(6, 22);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(1098, 403);
-            dataGridView1.TabIndex = 0;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(5, 19);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(941, 349);
+            this.dataGridView1.TabIndex = 0;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(button8);
-            groupBox2.Controls.Add(button7);
-            groupBox2.Controls.Add(button4);
-            groupBox2.Controls.Add(button5);
-            groupBox2.Controls.Add(button6);
-            groupBox2.Controls.Add(button3);
-            groupBox2.Controls.Add(button2);
-            groupBox2.Controls.Add(button1);
-            groupBox2.Location = new Point(12, 519);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1110, 96);
-            groupBox2.TabIndex = 3;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "العمليات المتاحة";
+            this.groupBox2.Controls.Add(this.button8);
+            this.groupBox2.Controls.Add(this.button7);
+            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.button6);
+            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Location = new System.Drawing.Point(10, 450);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(951, 83);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "العمليات المتاحة";
             // 
             // button8
             // 
-            button8.Location = new Point(407, 51);
-            button8.Name = "button8";
-            button8.Size = new Size(169, 23);
-            button8.TabIndex = 7;
-            button8.Text = "الخروج";
-            button8.UseVisualStyleBackColor = true;
+            this.button8.Location = new System.Drawing.Point(349, 44);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(145, 20);
+            this.button8.TabIndex = 7;
+            this.button8.Text = "الخروج";
+            this.button8.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
-            button7.Location = new Point(582, 51);
-            button7.Name = "button7";
-            button7.Size = new Size(169, 23);
-            button7.TabIndex = 6;
-            button7.Text = "حفظ اللائحة في ملف اكسيل";
-            button7.UseVisualStyleBackColor = true;
+            this.button7.Location = new System.Drawing.Point(499, 44);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(145, 20);
+            this.button7.TabIndex = 6;
+            this.button7.Text = "حفظ اللائحة في ملف اكسيل";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            button4.Location = new Point(24, 22);
-            button4.Name = "button4";
-            button4.Size = new Size(156, 23);
-            button4.TabIndex = 5;
-            button4.Text = "طباعة كل المنتجات";
-            button4.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(21, 19);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(134, 20);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "طباعة كل المنتجات";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            button5.Location = new Point(186, 22);
-            button5.Name = "button5";
-            button5.Size = new Size(166, 23);
-            button5.TabIndex = 4;
-            button5.Text = "طباعة المنتج المحدد";
-            button5.UseVisualStyleBackColor = true;
+            this.button5.Location = new System.Drawing.Point(159, 19);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(142, 20);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "طباعة المنتج المحدد";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            button6.Location = new Point(358, 22);
-            button6.Name = "button6";
-            button6.Size = new Size(176, 23);
-            button6.TabIndex = 3;
-            button6.Text = "صورة المنتج";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
+            this.button6.Location = new System.Drawing.Point(307, 19);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(151, 20);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "صورة المنتج";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(540, 22);
-            button3.Name = "button3";
-            button3.Size = new Size(169, 23);
-            button3.TabIndex = 2;
-            button3.Text = "تعديل بيانات المنتج";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            this.button3.Location = new System.Drawing.Point(463, 19);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(145, 20);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "تعديل بيانات المنتج";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(715, 22);
-            button2.Name = "button2";
-            button2.Size = new Size(180, 23);
-            button2.TabIndex = 1;
-            button2.Text = "حذف المنتج المحدد";
-            button2.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(613, 19);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(154, 20);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "حذف المنتج المحدد";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Location = new Point(901, 22);
-            button1.Name = "button1";
-            button1.Size = new Size(172, 23);
-            button1.TabIndex = 0;
-            button1.Text = "اضافة منتج جديد";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.Location = new System.Drawing.Point(772, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 20);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "اضافة منتج جديد";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // FRM_PRODUCTS
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1134, 635);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            Controls.Add(txtSearch);
-            Controls.Add(label1);
-            MinimizeBox = false;
-            Name = "FRM_PRODUCTS";
-            RightToLeft = RightToLeft.Yes;
-            RightToLeftLayout = true;
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "نافذة ادارة المنتجات";
-            groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            groupBox2.ResumeLayout(false);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(972, 550);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.label1);
+            this.MinimizeBox = false;
+            this.Name = "FRM_PRODUCTS";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RightToLeftLayout = true;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "نافذة ادارة المنتجات";
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

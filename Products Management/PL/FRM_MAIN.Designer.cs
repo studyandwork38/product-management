@@ -1,4 +1,6 @@
-﻿namespace Products_Management.PL
+﻿using System.Windows.Forms;
+using System.Drawing;
+namespace Products_Management.PL
 {
     partial class FRM_MAIN
     {
